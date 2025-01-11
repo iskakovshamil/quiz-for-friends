@@ -1,1 +1,1 @@
-# quiz_4_friends
+# Quiz-for-friends
