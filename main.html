@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta charset="utf-8" />
+    <title>
+        Анкета для друзей
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <style>
+        body, html { font-family: arial; font-size: 14px; margin: 0; padding: 0; }
+        h1, h2, h3, h4 ,h5 ,h6, p { margin-top: 0; } hr { margin: 40px 0; }
+        p, li { line-height: 1.4; margin: 0 0 16px; } button, html [type="button"], [type="reset"], [type="submit"] { -webkit-appearance: button; cursor: pointer; font-family: inherit; font-style: inherit; } input[type="submit"]::-moz-focus-inner, button[type="submit"]::-moz-focus-inner, button:-moz-focusring, input:-moz-focusring { outline: 0; } button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; } code,kbd { background: #efefef; font-size: .825em; padding: 2px 4px; display: inline-block; line-height: 1; }
+        .content-area { padding: 2em 1.25em }
+        .content-area + .content-area { padding-top: 0; margin-top: -1.5em; }
+        .page { max-width: 700px; margin: auto; }
+        pre { display: block; }
+        pre code {
+            background: #fafafa;
+            border: 1px solid #666;
+            display: block;
+            padding: .55em;
+        }
+        .demo-heading {
+            font-size: 14px;
+            margin-top: 2em;
+            padding-top: 2em;
+            border-top: 1px solid;
+        }
+        .demo-heading span { display: block; }
+        .accordion {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .accordion-item {
+            border-bottom: 1px solid #ccc;
+        }
+        .accordion-item:last-child {
+            border-bottom: none;
+        }
+        .accordion-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1em;
+            cursor: pointer;
+            background: #f7f7f7;
+        }
+        .accordion-header h3 {
+            margin: 0;
+            flex-grow: 1;
+            font-size: 12px;
+        }
+        .accordion-header .arrow {
+            margin-left: 10px;
+            transition: transform 0.3s;
+        }
+        .accordion-header.active .arrow {
+            transform: rotate(180deg);
+        }
+        .accordion-content {
+            display: none;
+            padding: 1em;
+        }
+        .accordion-content.active {
+            display: block;
+        }
+    </style>
+    <script>
+        // remove no-js and add 'js' to the HTML
+        document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    </script>
+    <link rel="stylesheet" href="assets/css/aria.accordion.css" />
+</head>
+<body>
+
+    <div class="page">
+        <header class="content-area">
+            <h1 class="txt-up-3">
+                Анкета для друзей
+            </h1>
+        </header>
+        <main class="content-area">
+            <p>
+                Спасибо, что открыли эту анкету, мне это ценно:)
+                <br><br>Используйте этот сайт в качестве опросника, но ответы пишите ручкой или где-то в сообщениях или заметках, 
+                потому что я не сделал функцию, чтобы вы могли просто отправить текст куда-то автоматически.<br>
+                
+                <br><u>Несколько простых правил:</u>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;1. Важно не смотреть следующий вопрос до тех пор, пока не ответили на текущий;
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;2. Тратьте столько времени, сколько считаете нужным; 
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;3. Очевидно, нет правильных ответов, просто расслабьтесь и ответьте, как считаете нужным😊 
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;4. Можете ставить галочку, если ответили на вопрос — мб поможет не запутаться;
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;5. Желательно ответы подготовить до 14-го числа, но понимаю, что все занятые, так что не знаю, какой дедлайн. 
+                Но представьте, что я внезапно приеду через месяц и тогда это уже точно должно быть готово.
+
+                <br><br> Главное ответь на следующие 5 блоков: знакомство, прошлое, настоящее, будущее и заключение. 
+                <br>Если пройдешь и блок «Пруст», то будет еще лучше. 
+                <br> Но не забудь про блок «Заключение» внизу.
+            </p>
+
+            <h2 class="demo-heading">
+                <span>Знакомство:</span>
+            </h2>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <input type="checkbox" name="question1" value="answered">
+                        <h3 style="margin-left: 10px;">Вопрос 1:</h3>
+                        <span class="arrow">&#9660;</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>
+                            Представьтесь или опишите себя одним, максимум, двумя предложениями.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <input type="checkbox" name="question2" value="answered">
+                        <h3 style="margin-left: 10px;">Вопрос 2:</h3>
+                        <span class="arrow">&#9660;</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>
+                            Представьтесь или опишите себя одним-двумя абзацами. Как будто мы особо не знакомы. В любой форме — с шутками или на серьезке.
+                        </p>
+                    </div>
+                </div>
+
+                <h2 class="demo-heading">
+                    <span>Немного о прошлом:</span>
+                </h2>
+
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question6" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 3:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Какой вкус или запах напоминает тебе о детстве? Почему?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question7" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 4:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Какое самое раннее воспоминание ты можешь вспомнить? 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="demo-heading">
+                    <span>Немного о настоящем:</span>
+                </h2>
+
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question11" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 5:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Что такое дружба для тебя?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question11" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 6:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Что такое любовь для тебя?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question9" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 7:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Какой твой самый главный страх?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question10" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 8:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Какой твой страх на втором месте?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question11" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 9:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                О чем ты больше всего сожалеешь?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="demo-heading">
+                    <span>Немного о будущем:</span>
+                </h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question12" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 10:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Каким/какой вы бы хотели быть?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question13" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 11:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Как бы вы хотели умереть?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <h2 class="demo-heading">
+                    <span>Блок Пруст:</span>
+                </h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question14" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 12:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Что вы больше всего ненавидите?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question15" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 13:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Качества, которые Вы больше всего цените в мужчине?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question16" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 14:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Качества, которые Вы больше всего цените в женщине?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question17" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 15:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Что больше всего цените в ваших друзьях?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question17" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 16:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Что является Вашим главным недостатком?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="demo-heading">
+                    <span>Заключение:</span>
+                </h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question12" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 17:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Каким/какой вы бы хотели быть?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <input type="checkbox" name="question13" value="answered">
+                            <h3 style="margin-left: 10px;">Вопрос 18:</h3>
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Как бы вы хотели умереть?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const headers = document.querySelectorAll('.accordion-header');
+            headers.forEach(header => {
+                header.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    content.classList.toggle('active');
+                    this.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
